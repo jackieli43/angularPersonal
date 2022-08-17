@@ -1,0 +1,24 @@
+<div class="headerContainer">
+    <div class="topContainer">
+        <div class="slider">
+            temp
+        </div>
+        <div class="imageContainer">
+            hello
+        </div>
+    </div>
+    <div class="mainText">
+        <div *ngFor="let route of routes" class="header-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: route.exact}">
+            <h1>
+                <a href="#" routerLink="{{route.link}}"> {{route.text}} </a>
+            </h1>
+        </div>
+        <div class="contact-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: false}">
+            <h1>
+                <a href="#" routerLink="/contact"> Contact Me </a>
+            </h1>
+        </div>
+    </div>
+    <div class="footerText">
+    </div>
+</div>

@@ -1,0 +1,33 @@
+.headerContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.slider {
+    text-align: right;
+    border: 1px solid black;
+}
+
+.imageContainer {
+    margin: 15em 1em 1em 1em;
+    padding: 1em;
+}
+
+.header-item {
+    list-style: none;
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+    background-color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
